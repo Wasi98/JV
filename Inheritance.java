@@ -8,20 +8,20 @@ import My_Access2.MountainBike;
 public class Inheritance {
 
 	public static void main(String[] args) {
-		/*Bicycle b = new Bicycle(20,10);
+		Bicycle b = new Bicycle(20,10);
 		System.out.println("Gear is: " + b.gear);
 		
 		b.changeGear(30);
-		System.out.println("Now gear is: " + b.gear);*/
+		System.out.println("Now gear is: " + b.gear);
 		
-		/*MountainBike mBike = new MountainBike(20,10,1);
+		MountainBike mBike = new MountainBike(20,10,1);
 		System.out.println("Gear is:" + mBike.gear);
 		System.out.println("Speed is: " + mBike.speed);
 	    System.out.println("SeatHeight is: " + mBike.seatHeight);
 		mBike.applyBrake(2);
-		System.out.println("Speed is: " + mBike.speed);*/
+		System.out.println("Speed is: " + mBike.speed);
 		
-        /*ArrayList<MountainBike> list = new ArrayList<MountainBike>();
+        ArrayList<MountainBike> list = new ArrayList<MountainBike>();
 		
 		MountainBike m1 = new MountainBike(2,12,1);
 		MountainBike m2 = new MountainBike(1,11,1);
@@ -34,7 +34,7 @@ public class Inheritance {
 		Collections.sort(list);
 		
 		System.out.println("Bikes after sorting: ");
-		list.forEach(mBike -> System.out.println(mBike.getSeatHeight()));*/
+		list.forEach(mBike -> System.out.println(mBike.getSeatHeight()));
         
 	}
 
